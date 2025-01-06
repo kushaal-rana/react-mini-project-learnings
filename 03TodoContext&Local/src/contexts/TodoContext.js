@@ -4,7 +4,7 @@ export const TodoContext = createContext({
   todos: [
     {
       id: 1,
-      todo: "learn React",
+      title: "learn React",
       completed: false,
     },
   ],
