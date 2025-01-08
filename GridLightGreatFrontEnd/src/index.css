@@ -1,0 +1,38 @@
+
+*{
+  background-color: rgb(129, 126, 126);
+}
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color: rgb(235, 230, 230);
+  border: 1px solid #ae8484;
+}
+
+.cell-activated {
+  background-color: rgb(43, 249, 105);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+
+  gap: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #ccc;
+
+
+}
