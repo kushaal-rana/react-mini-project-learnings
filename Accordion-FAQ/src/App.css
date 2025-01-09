@@ -1,0 +1,22 @@
+*{
+  margin: 10px;
+}
+h1{
+  font-size: xx-large;
+}
+h2{
+  font-size: medium;
+}
+.accordion{
+  border: 2px solid black;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  position: relative;
+}
+
+span{
+  position: absolute;
+  right: 1.5rem;
+  cursor: pointer;
+top: -0.5rem;
+}
